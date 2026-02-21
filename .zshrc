@@ -2,7 +2,7 @@
 # Oh My Zsh
 # -------
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"  # lightweight, no need for p10k on server
+ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
