@@ -81,5 +81,8 @@ export PATH="$PNPM_HOME:$PATH"
 # -------
 [[ -f ~/.zshrc.secrets ]] && source ~/.zshrc.secrets
 
+# Load local overrides (machine-specific, not in dotfiles)
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
